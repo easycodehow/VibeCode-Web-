@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>바이브코드 AI 웹 - AI 시대의 실전 웹 개발</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 헤더 -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-text">바이브코드</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#about">소개</a></li>
+                <li><a href="#curriculum">커리큘럼</a></li>
+                <li><a href="#tech-stack">기술스택</a></li>
+                <li><a href="#expectations">기대효과</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="메뉴">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- 히어로 섹션 -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-main-title">VIBECODE AI Web</h1>
+            <p class="hero-main-description">
+                바이브코딩 클래스를 통해 빠르게 실무 프로젝트를 만들며 전체 프로젝트의 이해를 할수 있으며<br>
+                AI 시대의 실용적 개발 역량에 도전해볼 수 있습니다
+            </p>
+        </div>
+    </section>
+
+    <!-- 바이브코딩이란 섹션 -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">바이브코딩이란?</h2>
+                <p class="section-subtitle">AI와 함께하는 직관적이고 자연스러운 코딩 방식</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">📖</div>
+                    <h3>어원</h3>
+                    <p><strong>"Vibe"</strong> (분위기, 감각) + <strong>"Coding"</strong></p>
+                    <p class="card-description">직관적이고 자연스러운 흐름으로 코딩하는 새로운 방식</p>
+                </div>
+
+                <div class="about-card highlight-card">
+                    <div class="card-icon">⚡</div>
+                    <h3>일반 코딩과의 차이</h3>
+                    <div class="comparison">
+                        <div class="comparison-item old">
+                            <span class="comparison-label">일반 코딩</span>
+                            <p>문법 암기 → 코드 작성 → 디버깅 → 결과 확인</p>
+                            <span class="badge badge-old">긴 학습 곡선</span>
+                        </div>
+                        <div class="comparison-arrow">→</div>
+                        <div class="comparison-item new">
+                            <span class="comparison-label">바이브코딩</span>
+                            <p>AI와 대화 → 즉각적 구현 → 빠른 수정 → 실시간 결과</p>
+                            <span class="badge badge-new">짧은 학습 곡선</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-card">
+                    <div class="card-icon">🚀</div>
+                    <h3>전망</h3>
+                    <ul class="feature-list">
+                        <li>AI 보조 개발이 업계 표준으로 자리잡는 추세</li>
+                        <li>개발자 역할이 "코드 작성자"에서 "프로젝트 기획자·관리자"로 진화</li>
+                        <li>비전공자도 실무급 프로젝트 구현 가능</li>
+                        <li>빠른 프로토타이핑과 MVP 개발에 최적화</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 교육 목표 -->
+    <section class="goal">
+        <div class="container">
+            <div class="goal-content">
+                <h2 class="goal-title">교육 목표</h2>
+                <p class="goal-description">풀스택 웹 개발 실무 능력 습득 및<br>포트폴리오 프로젝트 완성</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 기술 스택 -->
+    <section id="tech-stack" class="tech-stack">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">기술 스택</h2>
+                <p class="section-subtitle">최신 기술로 실무 역량 강화</p>
+            </div>
+            
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <h3>프론트엔드</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">React</span>
+                    </div>
+                </div>
+                
+                <div class="tech-card">
+                    <h3>백엔드/데이터베이스</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Supabase</span>
+                        <span class="tech-tag-sub">DB + 인증</span>
+                    </div>
+                </div>
+                
+                <div class="tech-card">
+                    <h3>배포</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Vercel</span>
+                    </div>
+                </div>
+                
+                <div class="tech-card">
+                    <h3>AI 개발 도구</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag highlight">Claude Code</span>
+                        <span class="tech-tag-sub">AI 에이전트</span>
+                    </div>
+                </div>
+                
+                <div class="tech-card">
+                    <h3>버전 관리</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Git</span>
+                        <span class="tech-tag">GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 커리큘럼 -->
+    <section id="curriculum" class="curriculum">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">커리큘럼</h2>
+                <p class="section-subtitle">기초부터 심화까지 체계적인 학습</p>
+            </div>
+            
+            <div class="curriculum-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">1</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">기초 과정</h3>
+                        <div class="timeline-modules">
+                            <div class="module">
+                                <span class="module-icon">🎨</span>
+                                <div class="module-info">
+                                    <h4>포트폴리오 웹사이트 제작</h4>
+                                    <p>개인 브랜딩을 위한 전문 포트폴리오 구축</p>
+                                </div>
+                            </div>
+                            <div class="module">
+                                <span class="module-icon">🔐</span>
+                                <div class="module-info">
+                                    <h4>로그인/회원가입 기능 구현</h4>
+                                    <p>Supabase를 활용한 사용자 인증 시스템</p>
+                                </div>
+                            </div>
+                            <div class="module">
+                                <span class="module-icon">📝</span>
+                                <div class="module-info">
+                                    <h4>게시판 CRUD 기능 개발</h4>
+                                    <p>생성, 읽기, 수정, 삭제 기능 완벽 구현</p>
+                                </div>
+                            </div>
+                            <div class="module">
+                                <span class="module-icon">🌐</span>
+                                <div class="module-info">
+                                    <h4>실무 배포 프로세스</h4>
+                                    <p>Vercel을 통한 프로덕션 배포 경험</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker">2</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">심화 과정</h3>
+                        <div class="timeline-modules">
+                            <div class="module">
+                                <span class="module-icon">📱</span>
+                                <div class="module-info">
+                                    <h4>React Native + Expo 모바일 앱 개발</h4>
+                                    <p>크로스 플랫폼 모바일 앱 제작</p>
+                                </div>
+                            </div>
+                            <div class="module">
+                                <span class="module-icon">💬</span>
+                                <div class="module-info">
+                                    <h4>SNS 기능 구현</h4>
+                                    <p>실시간 소셜 네트워킹 기능 개발</p>
+                                </div>
+                            </div>
+                            <div class="module">
+                                <span class="module-icon">📸</span>
+                                <div class="module-info">
+                                    <h4>카메라 연동</h4>
+                                    <p>네이티브 디바이스 기능 통합</p>
+                                </div>
+                            </div>
+                            <div class="module">
+                                <span class="module-icon">🏪</span>
+                                <div class="module-info">
+                                    <h4>앱스토어 배포</h4>
+                                    <p>실제 앱 마켓 출시 경험</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 기대효과 -->
+    <section id="expectations" class="expectations">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">기대효과</h2>
+                <p class="section-subtitle">실전 역량과 함께 한계점도 솔직하게</p>
+            </div>
+            
+            <div class="expectations-grid">
+                <div class="expectations-column">
+                    <h3 class="column-title success">✅ 실제 가능한 것들</h3>
+                    
+                    <div class="expectation-card">
+                        <div class="expectation-number">1</div>
+                        <h4>프로젝트 전체 흐름 이해</h4>
+                        <ul>
+                            <li>기획부터 배포까지 전 과정을 경험하며 큰 그림 파악</li>
+                            <li>각 기술이 어떻게 연결되는지 구조적 이해</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="expectation-card">
+                        <div class="expectation-number">2</div>
+                        <h4>AI 도구 활용 능력</h4>
+                        <ul>
+                            <li>Claude Code와 효과적으로 협업하는 프롬프팅 능력</li>
+                            <li>에러 해결 과정에서 AI를 활용하는 실무 역량</li>
+                            <li>빠른 프로토타이핑 및 아이디어 구현 능력</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="expectation-card">
+                        <div class="expectation-number">3</div>
+                        <h4>시간 대비 높은 완성도</h4>
+                        <ul>
+                            <li>전통적 학습 대비 <strong>1/5 시간</strong>으로 실무급 프로젝트 완성</li>
+                            <li>문법 암기 대신 개념 이해와 구현에 집중</li>
+                            <li>즉각적인 피드백으로 빠른 학습 사이클</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="expectation-card">
+                        <div class="expectation-number">4</div>
+                        <h4>실전 포트폴리오 확보</h4>
+                        <ul>
+                            <li>취업/이직에 사용 가능한 실제 배포된 웹사이트</li>
+                            <li>GitHub 저장소 관리 경험</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="expectations-column">
+                    <h3 class="column-title warning">⚠️ 한계점</h3>
+                    
+                    <div class="expectation-card limitation">
+                        <div class="expectation-number">1</div>
+                        <h4>거대 프로젝트는 아직 어려움</h4>
+                        <ul>
+                            <li>복잡한 엔터프라이즈급 시스템 구축에는 한계</li>
+                            <li>다수의 마이크로서비스 연동 같은 대규모 아키텍처는 부적합</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="expectation-card limitation">
+                        <div class="expectation-number">2</div>
+                        <h4>세밀한 커스터마이징 제약</h4>
+                        <ul>
+                            <li>매우 특수한 알고리즘이나 최적화가 필요한 경우 직접 코딩 필요</li>
+                            <li>픽셀 단위 디자인 조정 등 세부 작업은 여전히 시간 소요</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="expectation-card limitation">
+                        <div class="expectation-number">3</div>
+                        <h4>깊은 기초 지식 부족 가능성</h4>
+                        <ul>
+                            <li>자료구조, 알고리즘 같은 CS 기초는 별도 학습 필요</li>
+                            <li>코드 한 줄 한 줄의 의미를 완벽히 이해하기 어려울 수 있음</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="expectation-card limitation">
+                        <div class="expectation-number">4</div>
+                        <h4>AI 의존도</h4>
+                        <ul>
+                            <li>AI 없이는 같은 수준의 개발 속도 유지 어려움</li>
+                            <li>네트워크 오류 등 AI 사용 불가 시 생산성 급감</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <span class="logo-text">바이브코드</span>
+                    </a>
+                    <p class="footer-tagline">AI와 함께하는 실전 웹 개발</p>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 바이브코드. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
